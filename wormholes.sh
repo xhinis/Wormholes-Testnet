@@ -21,7 +21,7 @@ cd $HOME
 echo "Docker kurulumu yapiliyor.."
 sleep 2
 
-sudo apt install docker.io
+sudo apt install docker.io -y
 sudo systemctl enable --now docker
 
 #check docker cmd
