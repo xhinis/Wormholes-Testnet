@@ -2,7 +2,7 @@
 
 echo "Sistem guncellemesi yapiliyor.."
 sleep 2
-sudo apt-get update && apt-get upgrade -y
+sudo apt update && apt upgrade -y
 
 cd $HOME
 
