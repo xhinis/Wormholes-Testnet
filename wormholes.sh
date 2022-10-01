@@ -19,7 +19,7 @@ sudo apt update && apt upgrade -y
 cd $HOME
 
 echo "Docker kurulumu yapiliyor.."
-sleep 3
+sleep 2
 
 sudo apt install docker.io
 sudo systemctl enable --now docker
